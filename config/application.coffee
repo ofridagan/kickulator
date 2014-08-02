@@ -8,3 +8,4 @@ module.exports = (lineman) ->
   sass:
     options:
       bundleExec: true
+      compass: true

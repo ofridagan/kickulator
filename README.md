@@ -14,6 +14,7 @@ Installation
 ```sh
 git clone git@github.com:ofridagan/lineman-ember-starterkit.git APP_NAME
 cd APP_NAME
+bundle install
 npm install
 ```
 
