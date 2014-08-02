@@ -11,7 +11,6 @@ Features:
 
 Installation
 --------------
-
 ```sh
 git clone git@github.com:ofridagan/lineman-ember-starterkit.git APP_NAME
 cd APP_NAME
@@ -20,11 +19,22 @@ npm install
 
 Run
 ----
-
 ```sh
 lineman run
 ```
 This will run all lineman tasks and also install bower dependencies.
+
+Making your own repository
+--------------------------
+You can follow this to keep track of the template but also push to your own repository:
+```sh
+git remote rename origin kit
+git remote add git@github.com:NAME/REPO.git origin
+git branch --set-upstream master origin/master
+git push
+```
+This will make your repository the 'origin' and the default upstream.
+
 
 [Lineman]:http://linemanjs.com/
 [Ember]:http://emberjs.com/
