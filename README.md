@@ -13,8 +13,18 @@ Installation
 --------------
 
 ```sh
-git clone ...
+git clone git@github.com:ofridagan/lineman-ember-starterkit.git APP_NAME
+cd APP_NAME
+npm install
 ```
+
+Run
+----
+
+```sh
+lineman run
+```
+This will run all lineman tasks and also install bower dependencies.
 
 [Lineman]:http://linemanjs.com/
 [Ember]:http://emberjs.com/
