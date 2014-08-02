@@ -10,9 +10,10 @@ module.exports = function(lineman) {
   return {
     js: {
       vendor: [
-        "vendor/js/jquery.js",
-        "vendor/js/handlebars.runtime.js",
-        "vendor/js/ember.js",
+        "vendor/bower/lodash/dist/lodash.js",
+        "vendor/bower/jquery/dist/jquery.js",
+        "vendor/bower/handlebars/handlebars.min.js",
+        "vendor/bower/ember/ember.js",
         "vendor/js/**/*.js"
       ]
     }
