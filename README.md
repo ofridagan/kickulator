@@ -8,6 +8,7 @@ Features:
 * [Ember]
 * [Lodash]
 * [Sass] + [Compass]
+* All CoffeeScript
 
 Installation
 --------------
