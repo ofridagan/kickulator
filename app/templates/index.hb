@@ -1,5 +1,7 @@
-<ul>
-{{#each item in model}}
-  <li>{{item}}</li>
-{{/each}}
-</ul>
+<div class="calculators-list">
+  <ul>
+  {{#each}}
+    <li>{{this}}</li>
+  {{/each}}
+  </ul>
+</div>
